@@ -19,25 +19,25 @@ CYAN='\033[0;36m'
 LIGHT='\033[0;37m'
 # ==========================================
 # Link Hosting Kalian Untuk Ssh Vpn
-akbarvpn="raw.githubusercontent.com/PechScript/PechVPN-Manager/master/ssh"
+akbarvpn="raw.githubusercontent.com/PechScript/PechVPN-Manager/PechVPN/ssh"
 # Link Hosting Kalian Untuk Sstp
-akbarvpnn="raw.githubusercontent.com/PechScript/PechVPN-Manager/master/sstp"
+akbarvpnn="raw.githubusercontent.com/PechScript/PechVPN-Manager/PechVPN/sstp"
 # Link Hosting Kalian Untuk Ssr
-akbarvpnnn="raw.githubusercontent.com/PechScript/PechVPN-Manager/master/ssr"
+akbarvpnnn="raw.githubusercontent.com/PechScript/PechVPN-Manager/PechVPN/ssr"
 # Link Hosting Kalian Untuk Shadowsocks
-akbarvpnnnn="raw.githubusercontent.com/PechScript/PechVPN-Manager/master/shadowsocks"
+akbarvpnnnn="raw.githubusercontent.com/PechScript/PechVPN-Manager/PechVPN/shadowsocks"
 # Link Hosting Kalian Untuk Wireguard
-akbarvpnnnnn="raw.githubusercontent.com/PechScript/PechVPN-Manager/master/wireguard"
+akbarvpnnnnn="raw.githubusercontent.com/PechScript/PechVPN-Manager/PechVPN/wireguard"
 # Link Hosting Kalian Untuk Xray
-akbarvpnnnnnn="raw.githubusercontent.com/PechScript/PechVPN-Manager/master/xray"
+akbarvpnnnnnn="raw.githubusercontent.com/PechScript/PechVPN-Manager/PechVPN/xray"
 # Link Hosting Kalian Untuk Ipsec
-akbarvpnnnnnnn="raw.githubusercontent.com/PechScript/PechVPN-Manager/master/ipsec"
+akbarvpnnnnnnn="raw.githubusercontent.com/PechScript/PechVPN-Manager/PechVPN/ipsec"
 # Link Hosting Kalian Untuk Backup
-akbarvpnnnnnnnn="raw.githubusercontent.com/PechScript/PechVPN-Manager/master/backup"
+akbarvpnnnnnnnn="raw.githubusercontent.com/PechScript/PechVPN-Manager/PechVPN/backup"
 # Link Hosting Kalian Untuk Websocket
-akbarvpnnnnnnnnn="raw.githubusercontent.com/PechScript/PechVPN-Manager/master/websocket"
+akbarvpnnnnnnnnn="raw.githubusercontent.com/PechScript/PechVPN-Manager/PechVPN/websocket"
 # Link Hosting Kalian Untuk Ohp
-akbarvpnnnnnnnnnn="raw.githubusercontent.com/PechScript/PechVPN-Manager/master/ohp"
+akbarvpnnnnnnnnnn="raw.githubusercontent.com/PechScript/PechVPN-Manager/PechVPN/ohp"
 
 # Getting
 MYIP=$(wget -qO- ipinfo.io/ip);

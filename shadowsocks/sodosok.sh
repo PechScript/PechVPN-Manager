@@ -16,7 +16,7 @@ LIGHT='\033[0;37m'
 MYIP=$(wget -qO- ipinfo.io/ip);
 echo "Checking VPS"
 # Link Hosting Kalian
-akbarvpn="raw.githubusercontent.com/PechScript/PechVPN-Manager/master/shadowsocks"
+akbarvpn="raw.githubusercontent.com/PechScript/PechVPN-Manager/PechVPN/shadowsocks"
 
 source /etc/os-release
 OS=$ID
