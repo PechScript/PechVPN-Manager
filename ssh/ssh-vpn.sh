@@ -392,6 +392,7 @@ wget -O addhost "https://${akbarvpn}/addhost.sh"
 wget -O about "https://${akbarvpn}/about.sh"
 wget -O menu "https://raw.githubusercontent.com/PechScript/PechVPN-Manager/PechVPN/update/menu.sh"
 wget -O backup-github "https://raw.githubusercontent.com/PechScript/PechVPN-Manager/PechVPN/backup/backup-github.sh"
+wget -O limitspeed "https://raw.githubusercontent.com/PechScript/PechVPN-Manager/PechVPN/backup/limitspeed.sh"
 wget -O addssh "https://${akbarvpn}/addssh.sh"
 wget -O trialssh "https://${akbarvpn}/trialssh.sh"
 wget -O delssh "https://${akbarvpn}/delssh.sh"
@@ -470,6 +471,7 @@ chmod +x setmenu
 chmod +x addhost
 chmod +x menu
 chmod +x backup-github
+chmod +x limitspeed
 chmod +x addssh
 chmod +x trialssh
 chmod +x delssh
