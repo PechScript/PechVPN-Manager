@@ -10,18 +10,16 @@ echo -e "$y-------------------------------------------------------------$wh"
 echo -e "$yy 1$y.  Add Or Change Subdomain Host For VPS"
 echo -e "$yy 2$y.  Renew Certificate Account"
 echo -e "$yy 3$y.  Change Port Of Some Service"
-echo -e "$yy 4$y.  Autobackup Data VPS"
-echo -e "$yy 5$y.  Backup Data VPS"
-echo -e "$yy 6$y.  Restore Data VPS"
-echo -e "$yy 7$y.  Webmin Menu"
-echo -e "$yy 8$y.  Limit Bandwith Speed Server"
-echo -e "$yy 9$y.  Check Usage of VPS Ram"
-echo -e "$yy 10$y. Reboot VPS"
-echo -e "$yy 11$y. Speedtest VPS"
-echo -e "$yy 12$y. Displaying System Information"
-echo -e "$yy 13$y. Info Script Auto Install"
-echo -e "$yy 14$y. Menu"
-echo -e "$yy 15$y. Exit"
+echo -e "$yy 4$y.  Backup VPS"
+echo -e "$yy 5$y.  Webmin Menu"
+echo -e "$yy 6$y.  Limit Bandwith Speed Server"
+echo -e "$yy 7$y.  Check Usage of VPS Ram"
+echo -e "$yy 8$y.  Reboot VPS"
+echo -e "$yy 9$y.  Speedtest VPS"
+echo -e "$yy 10$y. Displaying System Information"
+echo -e "$yy 11$y. Info Script Auto Install"
+echo -e "$yy 12$y. Back To Menu"
+echo -e "$yy 13$y. Exit"
 echo -e "$y-------------------------------------------------------------$wh"
 echo -e ""
 read -p "Select From Options [ 1 - 60 ] : " menu
@@ -37,40 +35,35 @@ certv2ray
 changeport
 ;;
 4)
-autobackup
+backup-github
 ;;
 5)
-backup
-;;
-6)
-restore
-;;
-7)
 wbmn
 ;;
-8)
+6)
 limitspeed
 ;;
-9)
+7)
 ram
 ;;
-10)
+8)
 reboot
+/sbin/reboot
 ;;
-11)
+9)
 speedtest
 ;;
-12)
+10)
 info
 ;;
-13)
+11)
 about
 ;;
-14)
+12)
 clear
 menu
 ;;
-15)
+13)
 clear
 exit
 ;;
